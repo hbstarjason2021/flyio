@@ -4,6 +4,7 @@
 # APP_NAME="lyz7805-v2ray"
 #REGION="hkg"
 REGION="lax"
+## https://fly.io/docs/reference/regions/
 
 if ! command -v flyctl >/dev/null 2>&1; then
     printf '\e[33mCould not resolve command - flyctl. So, install flyctl first.\n\e[0m'
